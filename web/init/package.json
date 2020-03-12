@@ -43,7 +43,7 @@
     "react-dom": "^15.0.0 || ^16.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.1.2",
+    "@babel/cli": "^7.7.0",
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/polyfill": "^7.4.4",
@@ -72,7 +72,7 @@
     "eslint-loader": "^2.1.0",
     "file-loader": "^2.0.0",
     "glob": "^7.1.4",
-    "jest": "^23.6.0",
+    "jest": "^24.0.0",
     "jest-enzyme": "^6.0.4",
     "jsdoc-babel": "^0.5.0",
     "mini-css-extract-plugin": "^0.4.3",
