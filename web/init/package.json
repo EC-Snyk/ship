@@ -12,7 +12,9 @@
     "start": "npm run build-dev -- --colors --watch",
     "dashboard": "cross-env DASHBOARD=true webpack-dashboard -m -- npm run start",
     "gen-prop-docs": "rmd Ship src/Ship.jsx props.md",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "brace": "^0.11.1",
@@ -34,7 +36,8 @@
     "redux-segment": "^1.6.2",
     "redux-thunk": "2.2.0",
     "replicated-lint": "0.14.9",
-    "yaml-ast-parser": "^0.0.41"
+    "yaml-ast-parser": "^0.0.41",
+    "snyk": "^1.316.1"
   },
   "peerDependencies": {
     "monaco-editor": "^0.14.3",
@@ -97,5 +100,6 @@
     "webpack-dashboard": "^2.0.0",
     "webpack-shell-plugin": "^0.5.0",
     "yargs": "^12.0.2"
-  }
+  },
+  "snyk": true
 }
