@@ -19,7 +19,7 @@
     "classnames": "^2.2.6",
     "history": "^4.7.2",
     "isomorphic-fetch": "^2.2.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.17",
     "rc-progress": "^2.2.5",
     "react-ace": "^6.2.0",
     "react-document-title": "^2.0.3",
