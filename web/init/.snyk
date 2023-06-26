@@ -1,0 +1,284 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - publish > npm > node-gyp > request > hawk > hoek:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: 'npm:hoek:20180212'
+        path: publish > npm > node-gyp > request > hawk > hoek
+    - publish > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: 'npm:hoek:20180212'
+        path: publish > npm > node-gyp > request > hawk > boom > hoek
+    - publish > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: 'npm:hoek:20180212'
+        path: publish > npm > node-gyp > request > hawk > sntp > hoek
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - replicated-lint > snyk > proxy-agent > https-proxy-agent:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-HTTPSPROXYAGENT-469131
+        path: replicated-lint > snyk > proxy-agent > https-proxy-agent
+    - replicated-lint > snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-HTTPSPROXYAGENT-469131
+        path: >-
+          replicated-lint > snyk > proxy-agent > pac-proxy-agent >
+          https-proxy-agent
+  SNYK-JS-LODASH-567746:
+    - '@babel/core > lodash':
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@babel/core > lodash'
+    - css-loader > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: css-loader > lodash
+    - jsdoc-babel > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: jsdoc-babel > lodash
+    - redux > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: redux > lodash
+    - webpack-bundle-analyzer > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: webpack-bundle-analyzer > lodash
+    - eslint > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > lodash
+    - node-sass > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: node-sass > lodash
+    - replicated-lint > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: replicated-lint > lodash
+    - enzyme > cheerio > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: enzyme > cheerio > lodash
+    - eslint > inquirer > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > inquirer > lodash
+    - jest-enzyme > enzyme-to-json > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: jest-enzyme > enzyme-to-json > lodash
+    - replicated-lint > junit-report-builder > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: replicated-lint > junit-report-builder > lodash
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash'
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-eslint > @babel/traverse > lodash
+    - eslint > table > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > table > lodash
+    - node-sass > sass-graph > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: node-sass > sass-graph > lodash
+    - replicated-lint > snyk > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: replicated-lint > snyk > lodash
+    - '@babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash':
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-transform-modules-amd >
+          @babel/helper-module-transforms > lodash
+    - replicated-lint > snyk > inquirer > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: replicated-lint > snyk > inquirer > lodash
+    - react-markdown-gen > react-docgen > async > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-markdown-gen > react-docgen > async > lodash
+    - node-sass > gaze > globule > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: node-sass > gaze > globule > lodash
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-eslint > @babel/traverse > @babel/generator > lodash
+    - babel-preset-react-app > babel-plugin-dynamic-import-node > babel-template > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-react-app > babel-plugin-dynamic-import-node >
+          babel-template > lodash
+    - babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-react-app > babel-preset-env >
+          babel-plugin-transform-es2015-block-scoping > lodash
+    - replicated-lint > snyk > @snyk/dep-graph > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: replicated-lint > snyk > @snyk/dep-graph > lodash
+    - replicated-lint > snyk > snyk-config > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: replicated-lint > snyk > snyk-config > lodash
+    - replicated-lint > snyk > snyk-mvn-plugin > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: replicated-lint > snyk > snyk-mvn-plugin > lodash
+    - replicated-lint > snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: replicated-lint > snyk > snyk-nodejs-lockfile-parser > lodash
+    - replicated-lint > snyk > snyk-nuget-plugin > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: replicated-lint > snyk > snyk-nuget-plugin > lodash
+    - '@babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash':
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/core > @babel/helpers > @babel/traverse > @babel/generator >
+          lodash
+    - jest > jest-cli > istanbul-api > async > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: jest > jest-cli > istanbul-api > async > lodash
+    - babel-preset-react-app > babel-plugin-dynamic-import-node > babel-template > babel-traverse > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-react-app > babel-plugin-dynamic-import-node >
+          babel-template > babel-traverse > lodash
+    - babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-react-app > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          lodash
+    - babel-preset-react-app > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-react-app > babel-preset-env >
+          babel-plugin-transform-es2015-sticky-regex > babel-helper-regex >
+          lodash
+    - jest > jest-cli > jest-config > babel-core > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: jest > jest-cli > jest-config > babel-core > lodash
+    - replicated-lint > snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: replicated-lint > snyk > @snyk/dep-graph > graphlib > lodash
+    - replicated-lint > snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          replicated-lint > snyk > snyk-php-plugin >
+          @snyk/composer-lockfile-parser > lodash
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > lodash':
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/traverse > lodash
+    - publish > npm > request > form-data > async > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: publish > npm > request > form-data > async > lodash
+    - babel-preset-react-app > babel-plugin-dynamic-import-node > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-react-app > babel-plugin-dynamic-import-node >
+          babel-template > babel-traverse > babel-types > lodash
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > istanbul-api > istanbul-lib-instrument >
+          babel-template > lodash
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > istanbul-api > istanbul-lib-instrument >
+          babel-generator > lodash
+    - jest > jest-cli > jest-config > babel-core > babel-register > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: jest > jest-cli > jest-config > babel-core > babel-register > lodash
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > lodash':
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/traverse > @babel/generator > lodash
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > istanbul-api > istanbul-lib-instrument >
+          babel-generator > babel-types > lodash
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > istanbul-api > istanbul-lib-instrument >
+          babel-template > babel-traverse > lodash
+    - jest-enzyme > jest-environment-enzyme > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest-enzyme > jest-environment-enzyme > jest-environment-jsdom > jsdom
+          > request-promise-native > request-promise-core > lodash
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/helper-function-name > @babel/helper-get-function-arity >
+          @babel/types > lodash
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > istanbul-api > istanbul-lib-instrument >
+          babel-template > babel-traverse > babel-types > lodash
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > jest-config > jest-environment-jsdom > jsdom >
+          request-promise-native > request-promise-core > lodash
+  SNYK-JS-TREEKILL-536781:
+    - replicated-lint > snyk > snyk-sbt-plugin > tree-kill:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: SNYK-JS-TREEKILL-536781
+        path: replicated-lint > snyk > snyk-sbt-plugin > tree-kill
+  'npm:tunnel-agent:20170305':
+    - publish > npm > request > tunnel-agent:
+        patched: '2023-06-26T14:35:39.901Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: publish > npm > request > tunnel-agent
